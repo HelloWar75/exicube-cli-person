@@ -1,0 +1,19 @@
+{
+  "name": "exicube-cli",
+  "version": "1.9.0",
+  "description": "Installer for all Apps from Exicube",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Exicube App Solutions (OPC) Private Limited",
+  "bin": {
+    "exicube": "./index.js"
+  },
+  "dependencies": {
+    "crypto-js": "^4.1.1",
+    "firebase-tools": "^13.0.1",
+    "fs-extra": "10.0.0",
+    "node-fetch": "2.6.7"
+  }
+}
